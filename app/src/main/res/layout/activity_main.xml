@@ -23,7 +23,6 @@
             android:layout_height="wrap_content"
             android:text="글씨 크기 변경"
             android:textSize="20sp"/>
-        textColor
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,6 +31,12 @@
             android:textStyle="italic"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tj_image_01"
+        android:scaleType="fitXY"/>
 
     <TextView
         android:layout_width="wrap_content"
